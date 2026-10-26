@@ -1,4 +1,4 @@
-import std/[unittest, os, strutils]
+import std/[unittest, os]
 import dotenvrun/run
 
 test "debug does not require command":

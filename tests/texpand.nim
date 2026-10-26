@@ -1,4 +1,4 @@
-import std/[unittest, tables, os, strtabs]
+import std/[unittest, strtabs]
 import dotenvrun/expand
 
 test "expands unbraced variable":
