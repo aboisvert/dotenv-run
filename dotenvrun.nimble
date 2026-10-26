@@ -9,3 +9,6 @@ installExt    = @["nim"]
 namedBin["dotenvrun"] = "dotenv-run"
 
 requires "nim >= 2.2.0"
+
+task tests, "run all tests":
+  exec "nimble test"
