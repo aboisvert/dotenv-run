@@ -1,0 +1,29 @@
+# Nimble-generated (not source)
+nimble.paths
+nimble.develop
+nimbledeps/
+
+# Built binary (nimble build / nimble install at package root)
+/dotenv-run
+/dotenv-run.out
+
+# Ephemeral files from integration tests
+/tests/fixtures/run/.env
+
+# Compiler cache and object files
+nimcache/
+*.o
+*.obj
+
+# Editor and OS
+.DS_Store
+*.swp
+*~
+
+!/src/**/*.*
+!/tests/**/*.*
+!/examples/**/*.*
+
+/src/**
+/tests/**
+/examples/**
