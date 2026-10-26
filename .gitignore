@@ -1,3 +1,5 @@
+dist/
+
 # Nimble-generated (not source)
 nimble.paths
 nimble.develop
